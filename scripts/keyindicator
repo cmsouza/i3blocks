@@ -44,8 +44,9 @@ GetOptions("help|h" => \&help,
 
 # Key mapping
 my %indicators = (
-    CAPS => 0x00000001,
-    NUM  => 0x00000002,
+    CAPS   => 0x00000001,
+    NUM    => 0x00000002,
+    SCROLL => 0x00000004,
 );
 
 # Retrieve key flags
